@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #333;
+}
+
+header {
+  background-color: #3a6fa5;
+  color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  height: 60px; 
+  width: auto;
+  align-self: baseline;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  padding: 20px;
+  size: 50px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+table th {
+  background-color: #233585;
+  color: white;
+}
+
+h1 {
+    text-align: center;
+    color: #2c2c2c;
+}
+
+label {
+    display: block;
+    margin: 5px 0 2px;
+}
+
+input, select {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 250px;
+}
+
+input[type="submit"] {
+    background-color: #004080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #003060;
+}
+
+h5{
+  padding: 15px; font-size: 14px;
+}
+h5 legend{
+  font-size: 18px;
+}
+
+#gl1, #gl2, #gl3, #gl4, #gl5, #gl6{
+  background-color: #4759ac;
+}
+
+h2{
+  padding:15px;
+  margin: 15px;
+  text-align: justify;
+}
+
+#abacaxi{
+  text-align: center;
+}
+
